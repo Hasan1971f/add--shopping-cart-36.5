@@ -1,0 +1,66 @@
+/* বডি স্টাইল */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* শিরোনাম স্টাইল */
+h1 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* ইনপুট ফিল্ড এবং বোতাম স্টাইল */
+input[type="text"],
+input[type="number"] {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* প্রোডাক্ট লিস্ট স্টাইল */
+#product-container {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#product-container li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+#product-container li:last-child {
+    border-bottom: none;
+}
